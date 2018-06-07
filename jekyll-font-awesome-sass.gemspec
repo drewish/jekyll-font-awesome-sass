@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['andrew morton']
   spec.email         = ['drewish@katherinehouse.com']
 
-  spec.summary       = 'A plugin to add Twitter Bootstrap to your Jekyll site'
+  spec.summary       = 'A plugin to add Font Awesome to your Jekyll site.'
   spec.homepage      = 'https://github.com/drewish/jekyll-font-awesome-sass'
   spec.license       = 'MIT'
 
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'jekyll', '>= 2.5', '< 4.0'
-  spec.add_dependency 'font-awesome-sass', ['>=4', '~> 5']
+  spec.add_dependency 'font-awesome-sass', '>=4'
 
   spec.add_development_dependency 'bundler', '~> 1.11'
   spec.add_development_dependency 'rake', '~> 10.0'
