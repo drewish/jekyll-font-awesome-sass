@@ -14,7 +14,7 @@ gem 'jekyll-font-awesome-sass'
 And add the following to your site's `_config.yml` file:
 
 ```yaml
-gems:
+plugins:
   - jekyll-font-awesome-sass
 ```
 
